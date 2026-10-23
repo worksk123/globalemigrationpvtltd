@@ -1,4 +1,4 @@
-// Global Emigration — shared site script
+// Global immigration  — shared site script
 (function () {
   var PHONE = "917455027539";
   var EMAIL = "sdmediatechsolutions@gmail.com";
@@ -89,7 +89,7 @@
     var mailBtn = document.getElementById("send-mail");
     if (mailBtn) mailBtn.addEventListener("click", function () {
       var t = build(); if (!t) return;
-      window.location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("Emigration enquiry") + "&body=" + encodeURIComponent(t);
+      window.location.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("immigration  enquiry") + "&body=" + encodeURIComponent(t);
     });
   }
 
